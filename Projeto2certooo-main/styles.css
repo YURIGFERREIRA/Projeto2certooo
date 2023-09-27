@@ -23,6 +23,8 @@ body {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -76,11 +78,4 @@ body {
 }
 .descricao__texto{
     color: var(--cinza-secundario);
-}
-.secundario__botao{
-    display: inline-block;
-    margin-top: 1em;
-}
-.container__descricao{
-    padding: 2em;
 }
